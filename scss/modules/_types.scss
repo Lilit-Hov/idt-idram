@@ -1,0 +1,25 @@
+// Headings
+// -------------------------
+h1, .h1 {
+  @include heading($font-primary,$font-size-h1,$color-text,20px,500);
+}
+
+h2, .h2 {
+  @include heading($font-primary,$font-size-h2,$color-text,30px,500);
+}
+
+h3, .h3 {
+  @include heading($font-primary,$font-size-h3,$color-text,25px,300);
+}
+
+h4, .h4 {
+  @include heading($font-primary,$font-size-h4,$color-text,23px,300);
+}
+
+h5, .h5 {
+  @include heading($font-primary,$font-size-h5,$color-text,20px,500);
+}
+
+h6, .h6 {
+  @include heading($font-primary,$font-size-h6,$color-text,15px,700);
+}

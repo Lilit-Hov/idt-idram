@@ -1,0 +1,62 @@
+//paths
+$fonts-folder:          "../fonts";
+$images-folder:         "../img/";
+
+//fonts
+$font-primary:          "Circular Std", sans-serif;
+$font-icons:            "squaresigns-icomoon";
+
+
+//headings
+$font-size-h1 :      16px;
+$font-size-h2 :      24px;
+$font-size-h3 :      20px;
+$font-size-h4 :      18px;
+$font-size-h5 :      16px;
+$font-size-h6 :      12px;
+
+
+//color usage
+$color-primary:      #EA973E;
+$color-dark:         #2E3C4D;
+$color-gray:         #4D4D4D;
+$color-gray-light:   #E5E5E5;
+$color-white:        #ffffff;
+
+//text color
+$color-text:         $color-dark;
+
+//Text size
+$base-font-size:     14px;
+
+//container
+$cont-padding:       60px;
+$cont-width-xs:      540px;
+$cont-width-sm:      720px;
+$cont-width-md:      960px;
+$cont-width-lg:      1860px;
+
+$gutter-width:       20px;
+
+
+//Resolutions
+$screen-lg:          1200px;
+$screen-md:          992px;
+$screen-sm:          768px;
+$screen-xs:          576px;
+
+//min resolutions
+$screen-lg-min:      $screen-lg;
+$screen-md-min:      $screen-md;
+$screen-sm-min:      $screen-sm;
+$screen-xs-min:      $screen-xs;
+
+//max resolutions
+$screen-lg-max:      ($screen-lg-min - 1);
+$screen-md-max:      ($screen-md-min - 1);
+$screen-sm-max:      ($screen-sm-min - 1);
+$screen-xs-max:      ($screen-xs-min - 1);
+
+
+// Transitions
+$trns-standart:      all .4s ease;

@@ -1,0 +1,12 @@
+@each $key,$val in $resolutions {
+  @media (min-width: $val) {
+    .hide-min-#{$key} {
+      display: none;
+    }
+  }
+  @media (max-width: $val - 1) {
+    .hide-max-#{$key} {
+      display: none;
+    }
+  }
+}
