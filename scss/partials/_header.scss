@@ -11,22 +11,14 @@ header {
     &:hover {
       opacity: 0.75;
     }
+  }
 
-    .logo-primary {
-      @media (max-width: $screen-sm-max) {
-        display: none;
-      }
+  .logo-primary {
+    display: block;
+  }
 
-      display: block;
-    }
-
-    .logo-secondary {
-      display: none;
-
-      @media (max-width: $screen-sm-max) {
-        display: block;
-      }
-    }
+  .logo-secondary {
+    display: none;
   }
 
   .user-info {
@@ -107,6 +99,10 @@ header {
     li {
       margin-right: 20px;
     }
+  }
+
+  .toggle-button {
+
   }
 }
 

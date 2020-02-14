@@ -1,0 +1,96 @@
+@media (max-width: $screen-lg-max) {
+  .header-nav {
+    ul {
+      li {
+        margin-right: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: $screen-md-max) {
+  header {
+    .logo {
+      max-width: 40px;
+    }
+
+    .logo-primary {
+      display: none;
+    }
+
+    .logo-secondary {
+      display: block;
+    }
+
+    .user-info {
+      i.icon-cheveron-down {
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+@media (max-width: $screen-sm-max) {
+  header {
+    .toggle-button {
+      z-index: 5;
+
+      .icon-menu {
+        display: block;
+      }
+
+      .icon-close {
+        display: none;
+      }
+    }
+
+    .header-nav {
+      @include position($top:0,$left:0);
+      background-color: $color-gray;
+      padding-bottom: 30px;
+      padding-top: 70px;
+      display: none;
+      width: 100%;
+      z-index: 3;
+
+      ul {
+        @include dir-col;
+        @include align-center;
+      }
+    }
+
+    .lang {
+      @include position($right:30px,$top:30px);
+      display: none;
+      z-index: 3;
+    }
+
+    .header-nav ul,.lang {
+      li {
+        margin-right: 0;
+        margin-bottom: 25px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    &.collapsed-header {
+      position: relative;
+      .toggle-button {
+        .icon-menu {
+          display: none;
+        }
+
+        .icon-close {
+          display: block;
+        }
+      }
+
+      .header-nav, .lang {
+        display: block;
+      }
+    }
+  }
+}

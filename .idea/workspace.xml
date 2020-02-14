@@ -2,82 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31335743-1610-4dc8-aa6a-25e6fc585d2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/idt-idram.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/58e2c3e12a5f61a9add335c5e39e9cf386c21f06/style.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/58e2c3e12a5f61a9add335c5e39e9cf386c21f06/variables.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_footer.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_header.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_options.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_services.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/6353ce8c9a1ca3041c1c804c10d5da954e074692/slick-theme.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/6353ce8c9a1ca3041c1c804c10d5da954e074692/slick.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/circular-std-black/circular-std-black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/circular-std-black/circular-std-black.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/circular-std-black/circular-std-black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/circular-std-black/circular-std-black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/icomoon/selection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/assets/icomoon-icons/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/assets/icomoon-icons/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/assets/slick.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/partials/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/partials/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/partials/_options.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/partials/_services.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/CONTRIBUTING.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/README.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/config.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/fonts/slick.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/fonts/slick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/fonts/slick.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/fonts/slick.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick-theme.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick-theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_index.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/6353ce8c9a1ca3041c1c804c10d5da954e074692/_index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/6353ce8c9a1ca3041c1c804c10d5da954e074692/_index.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/89d11aaa2fc8ff911f46398ea64a74adee4ccb95/_globals.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/89d11aaa2fc8ff911f46398ea64a74adee4ccb95/_globals.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/89d11aaa2fc8ff911f46398ea64a74adee4ccb95/_spaces.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/89d11aaa2fc8ff911f46398ea64a74adee4ccb95/_spaces.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/89d11aaa2fc8ff911f46398ea64a74adee4ccb95/_types.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/89d11aaa2fc8ff911f46398ea64a74adee4ccb95/_types.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_buttons.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_buttons.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_fonts.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_fonts.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_mixins.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_mixins.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_variables.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/58e2c3e12a5f61a9add335c5e39e9cf386c21f06/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/58e2c3e12a5f61a9add335c5e39e9cf386c21f06/style.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/58e2c3e12a5f61a9add335c5e39e9cf386c21f06/variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/58e2c3e12a5f61a9add335c5e39e9cf386c21f06/variables.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_header.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/708a37b681064a5e2c458a66837cde0db97d0a04/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/708a37b681064a5e2c458a66837cde0db97d0a04/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/icomoon/selection.json" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/icomoon/selection.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/assets/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/assets/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/modules/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/modules/_spaces.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_spaces.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/modules/_types.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_types.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/partials/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/partials/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/assets/icomoon-icons/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/assets/icomoon-icons/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/assets/icomoon-icons/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/assets/icomoon-icons/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/partials/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/utilities/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/utilities/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/utilities/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/utilities/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/utilities/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/utilities/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/utilities/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/utilities/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/CONTRIBUTING.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/config.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick-theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick-theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +78,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/scss/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gat-squaresigns" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -182,7 +149,9 @@
       <workItem from="1581532776729" duration="2658000" />
       <workItem from="1581566339969" duration="22777000" />
       <workItem from="1581660716546" duration="90000" />
-      <workItem from="1581660821528" duration="2887000" />
+      <workItem from="1581660821528" duration="7933000" />
+      <workItem from="1581687322425" duration="1380000" />
+      <workItem from="1581690409924" duration="323000" />
     </task>
     <servers />
   </component>
@@ -206,10 +175,10 @@
     <state x="1946" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1579897939789" />
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581532842844" />
     <state x="462" y="141" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.27.1296.741@70.27.1296.741" timestamp="1581513530688" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1581523774603">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1581665112666">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581523774603" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581665112666" />
     <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1581532728602">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -301,12 +270,12 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1982" y="240" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1580010769072" />
-    <state x="346" y="49" width="673" height="679" key="search.everywhere.popup" timestamp="1581661668539">
+    <state x="346" y="49" width="673" height="679" key="search.everywhere.popup" timestamp="1581690415092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1579971555193" />
     <state x="1852" y="70" width="945" height="969" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1580040812638" />
-    <state x="346" y="49" width="673" height="679" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581661668539" />
+    <state x="346" y="49" width="673" height="679" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581690415092" />
     <state x="398" y="77" width="672" height="692" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1581512650211" />
   </component>
 </project>

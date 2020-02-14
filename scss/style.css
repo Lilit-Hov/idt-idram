@@ -134,8 +134,8 @@ body {
 
 @font-face {
   font-family: "idram-icomoon";
-  src: url("../fonts/icomoon/idram-icomoon.eot?73itxc");
-  src: url("../fonts/icomoon/idram-icomoon.eot?73itxc#iefix") format("embedded-opentype"), url("../fonts/icomoon/idram-icomoon.ttf?73itxc") format("truetype"), url("../fonts/icomoon/idram-icomoon.woff?73itxc") format("woff"), url("../fonts/icomoon/idram-icomoon.svg?73itxc#idram-icomoon") format("svg");
+  src: url("../fonts/icomoon/idram-icomoon.eot?oo3e80");
+  src: url("../fonts/icomoon/idram-icomoon.eot?oo3e80#iefix") format("embedded-opentype"), url("../fonts/icomoon/idram-icomoon.ttf?oo3e80") format("truetype"), url("../fonts/icomoon/idram-icomoon.woff?oo3e80") format("woff"), url("../fonts/icomoon/idram-icomoon.svg?oo3e80#idram-icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block; }
@@ -178,6 +178,9 @@ body {
 
 .icon-crown:before {
   content: ""; }
+
+.icon-close:before {
+  content: ""; }
 
 .icon-menu:before {
   content: ""; }
@@ -279,16 +282,10 @@ header {
     max-width: 140px; }
     header .logo:hover {
       opacity: 0.75; }
-    header .logo .logo-primary {
-      display: block; }
-      @media (max-width: 767px) {
-        header .logo .logo-primary {
-          display: none; } }
-    header .logo .logo-secondary {
-      display: none; }
-      @media (max-width: 767px) {
-        header .logo .logo-secondary {
-          display: block; } }
+  header .logo-primary {
+    display: block; }
+  header .logo-secondary {
+    display: none; }
   header .user-info .name {
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
@@ -1380,5 +1377,61 @@ img {
 @media (max-width: 1199px) {
   .hide-max-lg {
     display: none; } }
+@media (max-width: 1199px) {
+  .header-nav ul li {
+    margin-right: 30px; } }
+@media (max-width: 991px) {
+  header .logo {
+    max-width: 40px; }
+  header .logo-primary {
+    display: none; }
+  header .logo-secondary {
+    display: block; }
+  header .user-info i.icon-cheveron-down {
+    margin-left: 5px; } }
+@media (max-width: 767px) {
+  header .toggle-button {
+    z-index: 5; }
+    header .toggle-button .icon-menu {
+      display: block; }
+    header .toggle-button .icon-close {
+      display: none; }
+  header .header-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #4D4D4D;
+    padding-bottom: 30px;
+    padding-top: 70px;
+    display: none;
+    width: 100%;
+    z-index: 3; }
+    header .header-nav ul {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+  header .lang {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: none;
+    z-index: 3; }
+  header .header-nav ul li, header .lang li {
+    margin-right: 0;
+    margin-bottom: 25px; }
+    header .header-nav ul li:last-child, header .lang li:last-child {
+      margin-bottom: 0; }
+  header.collapsed-header {
+    position: relative; }
+    header.collapsed-header .toggle-button .icon-menu {
+      display: none; }
+    header.collapsed-header .toggle-button .icon-close {
+      display: block; }
+    header.collapsed-header .header-nav, header.collapsed-header .lang {
+      display: block; } }
 
 /*# sourceMappingURL=style.css.map */

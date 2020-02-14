@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?73itxc');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?73itxc#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?73itxc') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?73itxc') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?73itxc##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?oo3e80');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?oo3e80#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?oo3e80') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?oo3e80') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?oo3e80##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -70,6 +70,11 @@
 .icon-crown {
   &:before {
     content: $icon-crown; 
+  }
+}
+.icon-close {
+  &:before {
+    content: $icon-close; 
   }
 }
 .icon-menu {
