@@ -1,0 +1,119 @@
+header {
+  background-color: $color-gray;
+  padding-bottom: 8px;
+  padding-top: 8px;
+
+  .logo {
+    @include transition($trns-standart);
+    display: inline-block;
+    max-width: 140px;
+
+    &:hover {
+      opacity: 0.75;
+    }
+
+    .logo-primary {
+      @media (max-width: $screen-sm-max) {
+        display: none;
+      }
+
+      display: block;
+    }
+
+    .logo-secondary {
+      display: none;
+
+      @media (max-width: $screen-sm-max) {
+        display: block;
+      }
+    }
+  }
+
+  .user-info {
+    .name {
+      @include transition($trns-standart);
+      color: $color-white;
+      font-weight: 500;
+      font-size: 15px;
+    }
+
+    &:hover {
+      .name{
+        color: $color-primary;
+      }
+
+      i.icon-cheveron-down {
+        transform: rotate(180deg);
+        color: $color-primary;
+      }
+    }
+
+    i.icon-cheveron-down {
+      @include transition($trns-standart);
+      color: $color-white;
+      font-size: 12px;
+    }
+  }
+
+  .user-photo {
+    border: 0.8px solid #E1703D;
+    @include justify-center;
+    @include align-center;
+    position: relative;
+    border-radius: 50%;
+    @include d-flex;
+    height: 67px;
+    width: 67px;
+
+    span {
+      @include bg-img($repeat: no-repeat, $size: cover, $position: center);
+      display: inline-block;
+      height: 58px;
+      width: 58px;
+    }
+
+    .status {
+      @include position($bottom:0,$right:0);
+      background-color: #E1703D;
+      display: inline-block;
+      text-align: center;
+      border-radius: 50%;
+      line-height: 18px;
+      height: 18px;
+      width: 18px;
+
+      i {
+        color: $color-white;
+        font-size: 9px;
+      }
+    }
+  }
+
+  .lang , .header-nav {
+    li {
+      a {
+        color: $color-white;
+        font-weight: 500;
+        font-size: 16px;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .lang {
+    li {
+      margin-right: 20px;
+    }
+  }
+}
+
+.header-nav {
+  ul {
+    li {
+      margin-right: 80px;
+    }
+  }
+}

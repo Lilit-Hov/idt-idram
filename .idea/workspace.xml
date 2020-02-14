@@ -1,7 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31335743-1610-4dc8-aa6a-25e6fc585d2e" name="Default Changelist" comment="" />
+    <list default="true" id="31335743-1610-4dc8-aa6a-25e6fc585d2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/idt-idram.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/58e2c3e12a5f61a9add335c5e39e9cf386c21f06/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/58e2c3e12a5f61a9add335c5e39e9cf386c21f06/variables.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_footer.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_header.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_options.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_services.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/6353ce8c9a1ca3041c1c804c10d5da954e074692/slick-theme.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/6353ce8c9a1ca3041c1c804c10d5da954e074692/slick.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/circular-std-black/circular-std-black.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/circular-std-black/circular-std-black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/circular-std-black/circular-std-black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/circular-std-black/circular-std-black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/icomoon/selection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/assets/icomoon-icons/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/assets/icomoon-icons/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/assets/slick.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/partials/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/partials/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/partials/_options.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/partials/_services.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/CONTRIBUTING.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/README.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/config.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick-theme.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick-theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_index.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/6353ce8c9a1ca3041c1c804c10d5da954e074692/_index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/6353ce8c9a1ca3041c1c804c10d5da954e074692/_index.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/89d11aaa2fc8ff911f46398ea64a74adee4ccb95/_globals.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/89d11aaa2fc8ff911f46398ea64a74adee4ccb95/_globals.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/89d11aaa2fc8ff911f46398ea64a74adee4ccb95/_spaces.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/89d11aaa2fc8ff911f46398ea64a74adee4ccb95/_spaces.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/89d11aaa2fc8ff911f46398ea64a74adee4ccb95/_types.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/89d11aaa2fc8ff911f46398ea64a74adee4ccb95/_types.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_buttons.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_buttons.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_fonts.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_fonts.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_mixins.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_mixins.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_variables.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/assets/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/assets/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/modules/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/modules/_spaces.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_spaces.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/modules/_types.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_types.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/partials/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/partials/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/utilities/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/utilities/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/utilities/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/utilities/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/utilities/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/utilities/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/utilities/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/utilities/_variables.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +100,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WoJ1YPaVNbqZ9kLgcO30aRBJsB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,7 +111,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scss/assets" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -45,12 +124,22 @@
       <recent name="C:\Users\Lilit\gat-squaresigns\styles" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lilit\idt-idram\scss\assets" />
+      <recent name="C:\Users\Lilit\idt-idram\js" />
+      <recent name="C:\Users\Lilit\idt-idram\scss\assets\icomoon-icons" />
       <recent name="C:\Users\Lilit\idt-idram\images" />
       <recent name="$PROJECT_DIR$/fonts" />
-      <recent name="C:\Users\Lilit\gat-squaresigns\scss\assets\icomoon-icons" />
-      <recent name="C:\Users\Lilit\gat-squaresigns\fonts\squaresigns-icomoon" />
-      <recent name="C:\Users\Lilit\gat-squaresigns\fonts\helvetica_neue\helvetica_neue_regular" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/idram/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -89,7 +178,11 @@
       <workItem from="1581332244845" duration="355000" />
       <workItem from="1581512215309" duration="1367000" />
       <workItem from="1581513593803" duration="2526000" />
-      <workItem from="1581504920221" duration="4876000" />
+      <workItem from="1581504920221" duration="17919000" />
+      <workItem from="1581532776729" duration="2658000" />
+      <workItem from="1581566339969" duration="22777000" />
+      <workItem from="1581660716546" duration="90000" />
+      <workItem from="1581660821528" duration="2887000" />
     </task>
     <servers />
   </component>
@@ -101,22 +194,86 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1918" y="179" key="#Inspections/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1579999766363" />
-    <state x="509" y="227" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580479483207">
+    <state x="509" y="227" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581574558502">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="2082" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1579945665927" />
-    <state x="509" y="227" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580479483207" />
-    <state x="462" y="141" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581513530688">
-      <screen x="70" y="27" width="1296" height="741" />
+    <state x="509" y="227" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1581574558502" />
+    <state x="413" y="112" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581532842844">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1579897219692" />
     <state x="1946" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1579897939789" />
-    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581332524178" />
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581532842844" />
     <state x="462" y="141" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.27.1296.741@70.27.1296.741" timestamp="1581513530688" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1581170810300">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1581523774603">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581170810300" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581523774603" />
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1581532728602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581532728602" />
+    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1581532728602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581532728602" />
+    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1581532728602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581532728602" />
+    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1581532728602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581532728602" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1581532728602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581532728602" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1581532728602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581532728602" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1581532728602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581532728602" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1581532728602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581532728602" />
+    <state width="1345" height="223" key="GridCell.Tab.2.bottom" timestamp="1581532728602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581532728602" />
+    <state width="1345" height="223" key="GridCell.Tab.2.center" timestamp="1581532728602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1581532728602" />
+    <state width="1345" height="223" key="GridCell.Tab.2.left" timestamp="1581532728602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1581532728602" />
+    <state width="1345" height="223" key="GridCell.Tab.2.right" timestamp="1581532728602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1581532728602" />
+    <state width="1345" height="223" key="GridCell.Tab.3.bottom" timestamp="1581532728603">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581532728603" />
+    <state width="1345" height="223" key="GridCell.Tab.3.center" timestamp="1581532728603">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1581532728603" />
+    <state width="1345" height="223" key="GridCell.Tab.3.left" timestamp="1581532728602">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1581532728602" />
+    <state width="1345" height="223" key="GridCell.Tab.3.right" timestamp="1581532728603">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1581532728603" />
     <state x="184" y="7" key="SettingsEditor" timestamp="1579809942369">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -125,27 +282,31 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1580018277728" />
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580502681058">
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1581519677262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1580502681058" />
-    <state x="713" y="-3" width="608" height="616" key="find.popup" timestamp="1581516532738">
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1581519677262" />
+    <state x="629" y="-3" width="737" height="616" key="find.popup" timestamp="1581663063257">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="0" width="607" height="648" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1579993062744" />
     <state x="2368" y="-4" width="854" height="880" key="find.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1580044908511" />
-    <state x="713" y="-3" width="608" height="616" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1581516532738" />
+    <state x="629" y="-3" width="737" height="616" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1581663063257" />
     <state x="662" y="27" width="704" height="627" key="find.popup/70.27.1296.741@70.27.1296.741" timestamp="1581513830196" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1581522689636">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1366.728@0.0.1366.728" timestamp="1581522689636" />
     <state x="1982" y="240" key="run.anything.popup" timestamp="1580010769072">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1982" y="240" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1580010769072" />
-    <state x="346" y="49" width="673" height="679" key="search.everywhere.popup" timestamp="1581516274727">
+    <state x="346" y="49" width="673" height="679" key="search.everywhere.popup" timestamp="1581661668539">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1579971555193" />
     <state x="1852" y="70" width="945" height="969" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1580040812638" />
-    <state x="346" y="49" width="673" height="679" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581516274727" />
+    <state x="346" y="49" width="673" height="679" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581661668539" />
     <state x="398" y="77" width="672" height="692" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1581512650211" />
   </component>
 </project>

@@ -1,0 +1,67 @@
+.options {
+  .card {
+    .title {
+      margin-bottom: 30px;
+    }
+
+    ul {
+      li {
+        margin-bottom: 20px;
+        @include d-flex;
+        @include justify-space-between;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .rates {
+    tr {
+      td {
+        width: 33.3%;
+
+        &:nth-child(2),
+        &:nth-child(3){
+          text-align: right;
+        }
+      }
+    }
+
+    h6 {
+      margin-bottom: 12px;
+    }
+
+    tbody {
+      td {
+        display: table-cell;
+        padding-bottom: 17px;
+
+        img {
+          vertical-align: middle;
+          width: 24px;
+          margin-right: 8px;
+        }
+      }
+    }
+
+    .rate-name {
+      font-family: $font-primary;
+      font-size: 14px;
+      color: #B3B9C2;
+    }
+
+    .rate-value {
+      font-family: $font-secondary;
+      font-size: 15px;
+      color: #3B4A5F;
+      line-height: 1;
+    }
+
+    .change {
+      font-size: 12px;
+      line-height: 1;
+    }
+  }
+}

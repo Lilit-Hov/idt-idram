@@ -123,3 +123,9 @@
   font-size: $size;
   color: $color;
 }
+
+//horizontal center
+@mixin push-auto {
+  margin-right: auto;
+  margin-left: auto;
+}

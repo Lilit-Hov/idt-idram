@@ -1,15 +1,15 @@
 // Headings
 // -------------------------
 h1, .h1 {
-  @include heading($font-primary,$font-size-h1,$color-text,20px,500);
+  @include heading($font-primary,$font-size-h1,$color-text,20px,900);
 }
 
 h2, .h2 {
-  @include heading($font-primary,$font-size-h2,$color-text,30px,500);
+  @include heading($font-primary,$font-size-h2,$color-text,30px,bold);
 }
 
 h3, .h3 {
-  @include heading($font-primary,$font-size-h3,$color-text,25px,300);
+  @include heading($font-primary,$font-size-h3,$color-text,25px,bold);
 }
 
 h4, .h4 {
@@ -17,9 +17,9 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  @include heading($font-primary,$font-size-h5,$color-text,20px,500);
+  @include heading($font-secondary,$font-size-h5,$color-text,20px,300);
 }
 
 h6, .h6 {
-  @include heading($font-primary,$font-size-h6,$color-text,15px,700);
+  @include heading($font-primary,$font-size-h6,#616D7D,15px,normal);
 }

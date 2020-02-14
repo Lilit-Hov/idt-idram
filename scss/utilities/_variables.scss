@@ -3,8 +3,9 @@ $fonts-folder:          "../fonts";
 $images-folder:         "../img/";
 
 //fonts
-$font-primary:          "Circular Std", sans-serif;
-$font-icons:            "squaresigns-icomoon";
+$font-primary:          "Circular Std Book", sans-serif;
+$font-secondary:        "Circular Std Black", sans-serif;
+$font-icons:            "icomoon";
 
 
 //headings
@@ -22,6 +23,8 @@ $color-dark:         #2E3C4D;
 $color-gray:         #4D4D4D;
 $color-gray-light:   #E5E5E5;
 $color-white:        #ffffff;
+$color-danger:       #FF004A;
+$color-success:      #00E07D;
 
 //text color
 $color-text:         $color-dark;
@@ -60,3 +63,5 @@ $screen-xs-max:      ($screen-xs-min - 1);
 
 // Transitions
 $trns-standart:      all .4s ease;
+$trns-sm:            all .3s ease;
+$trns-xs:            all .2s ease;
