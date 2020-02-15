@@ -4,12 +4,12 @@ img {
 
 //dropdown on hover
 .dropdown-hover {
+  padding-bottom: 8px;
   position: relative;
+  padding-top: 8px;
 
   &:hover {
     .dropdown-link {
-      padding-bottom: 5px;
-      padding-top: 5px;
       & + .dropdown-menu {
         display: block;
       }
@@ -18,16 +18,17 @@ img {
 
   .dropdown-menu {
     @include box-shadow(0 5px 10px rgba(0,0,0,.18));
-    @include position($top:100%,$left:0);
+    @include position($top:100%,$right:0);
     background-color: #ffffff;
     border-radius: 6px;
     padding-right: 5px;
     padding-left: 5px;
-    min-width: 140px;
+    min-width: 160px;
     list-style: none;
     font-size: 14px;
     display: none;
     z-index: 10;
+    width: 100%;
 
     li {
       border-bottom: 1px solid $color-gray-light;

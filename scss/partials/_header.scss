@@ -1,7 +1,8 @@
 header {
   background-color: $color-gray;
-  padding-bottom: 8px;
-  padding-top: 8px;
+  @include align-center;
+  @include d-flex;
+  height: 85px;
 
   .logo {
     @include transition($trns-standart);

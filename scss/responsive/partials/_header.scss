@@ -54,8 +54,8 @@
       z-index: 3;
 
       ul {
-        @include dir-col;
         @include align-center;
+        @include dir-col;
       }
     }
 
@@ -67,8 +67,8 @@
 
     .header-nav ul,.lang {
       li {
-        margin-right: 0;
         margin-bottom: 25px;
+        margin-right: 0;
 
         &:last-child {
           margin-bottom: 0;
@@ -78,6 +78,7 @@
 
     &.collapsed-header {
       position: relative;
+
       .toggle-button {
         .icon-menu {
           display: none;

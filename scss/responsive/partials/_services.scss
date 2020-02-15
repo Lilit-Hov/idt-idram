@@ -1,0 +1,20 @@
+@media (max-width: $screen-sm-max) {
+  .services {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+    .list {
+      @include justify-start;
+
+      li {
+        margin-bottom: 30px;
+        width: 50%;
+
+        &:nth-last-child(1),
+        &:nth-last-child(2) {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

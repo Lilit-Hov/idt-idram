@@ -3,48 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="31335743-1610-4dc8-aa6a-25e6fc585d2e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/58e2c3e12a5f61a9add335c5e39e9cf386c21f06/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/58e2c3e12a5f61a9add335c5e39e9cf386c21f06/style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/58e2c3e12a5f61a9add335c5e39e9cf386c21f06/variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/58e2c3e12a5f61a9add335c5e39e9cf386c21f06/variables.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_footer.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_footer.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_header.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/708a37b681064a5e2c458a66837cde0db97d0a04/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/708a37b681064a5e2c458a66837cde0db97d0a04/main.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/icomoon/idram-icomoon.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon/selection.json" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/icomoon/selection.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_services.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_services.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/89d11aaa2fc8ff911f46398ea64a74adee4ccb95/_globals.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/89d11aaa2fc8ff911f46398ea64a74adee4ccb95/_globals.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/cf033c4a53773066e2bb4b8debe1540cab6b618d/_header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/cf033c4a53773066e2bb4b8debe1540cab6b618d/_header.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/cf033c4a53773066e2bb4b8debe1540cab6b618d/_index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/cf033c4a53773066e2bb4b8debe1540cab6b618d/_index.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_mixins.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_mixins.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_variables.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/assets/icomoon-icons/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/assets/icomoon-icons/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/assets/icomoon-icons/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/assets/icomoon-icons/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/modules/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/partials/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/partials/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/partials/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/partials/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/partials/_services.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/responsive/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/responsive/partials/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/responsive/partials/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/responsive/partials/_index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/CONTRIBUTING.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/README.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/component.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick.jquery.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/config.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/fonts/slick.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/fonts/slick.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/fonts/slick.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/fonts/slick.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick-theme.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick-theme.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slick-1.8.1/slick-1.8.1/slick/slick.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/utilities/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/utilities/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/utilities/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/utilities/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +128,16 @@
       <workItem from="1581660716546" duration="90000" />
       <workItem from="1581660821528" duration="7933000" />
       <workItem from="1581687322425" duration="1380000" />
-      <workItem from="1581690409924" duration="323000" />
+      <workItem from="1581690409924" duration="1807000" />
+      <workItem from="1581692312822" duration="2620000" />
+      <workItem from="1581703397219" duration="625000" />
+      <workItem from="1581769941257" duration="1788000" />
+      <workItem from="1581771852428" duration="1795000" />
+      <workItem from="1581800133131" duration="1792000" />
+      <workItem from="1581801940515" duration="1822000" />
+      <workItem from="1581803866582" duration="1797000" />
+      <workItem from="1581805678288" duration="1795000" />
+      <workItem from="1581807486978" duration="1558000" />
     </task>
     <servers />
   </component>
@@ -251,16 +237,16 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1580018277728" />
-    <state x="92" y="92" width="1182" height="544" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1581519677262">
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1581807664650">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1581519677262" />
-    <state x="629" y="-3" width="737" height="616" key="find.popup" timestamp="1581663063257">
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1581807664650" />
+    <state x="629" y="-3" width="737" height="616" key="find.popup" timestamp="1581806616467">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="0" width="607" height="648" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1579993062744" />
     <state x="2368" y="-4" width="854" height="880" key="find.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1580044908511" />
-    <state x="629" y="-3" width="737" height="616" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1581663063257" />
+    <state x="629" y="-3" width="737" height="616" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1581806616467" />
     <state x="662" y="27" width="704" height="627" key="find.popup/70.27.1296.741@70.27.1296.741" timestamp="1581513830196" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1581522689636">
       <screen x="0" y="0" width="1366" height="728" />
@@ -270,12 +256,12 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1982" y="240" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1580010769072" />
-    <state x="346" y="49" width="673" height="679" key="search.everywhere.popup" timestamp="1581690415092">
+    <state x="346" y="49" width="673" height="679" key="search.everywhere.popup" timestamp="1581808526587">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1579971555193" />
     <state x="1852" y="70" width="945" height="969" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1580040812638" />
-    <state x="346" y="49" width="673" height="679" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581690415092" />
+    <state x="346" y="49" width="673" height="679" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581808526587" />
     <state x="398" y="77" width="672" height="692" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1581512650211" />
   </component>
 </project>

@@ -77,6 +77,12 @@
   justify-content: center;
 }
 
+@mixin justify-start {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+}
+
 @mixin justify-space-between {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
