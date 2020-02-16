@@ -19,6 +19,7 @@ $font-size-h6 :      12px;
 
 //color usage
 $color-primary:      #EA973E;
+$color-secondary:    #E1703D;
 $color-dark:         #2E3C4D;
 $color-gray:         #4D4D4D;
 $color-gray-light:   #E5E5E5;
@@ -65,3 +66,7 @@ $screen-xs-max:      ($screen-xs-min - 1);
 $trns-standart:      all .4s ease;
 $trns-sm:            all .3s ease;
 $trns-xs:            all .2s ease;
+
+//Border radius
+$br-xs:              6px;
+$br-sm:              12px;

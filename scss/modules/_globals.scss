@@ -20,7 +20,7 @@ img {
     @include box-shadow(0 5px 10px rgba(0,0,0,.18));
     @include position($top:100%,$right:0);
     background-color: #ffffff;
-    border-radius: 6px;
+    border-radius: $br-xs;
     padding-right: 5px;
     padding-left: 5px;
     min-width: 160px;
@@ -51,14 +51,14 @@ img {
 .card {
   background-color: $color-white;
   padding: 15px 30px 20px;
-  border-radius: 6px;
+  border-radius: $br-xs;
   margin-bottom: 30px;
 }
 
 //figure style
 .figure {
   @include box-shadow(0 0 14px rgba(0, 0, 0, 0.05));
-  border-radius: 6px;
+  border-radius: $br-xs;
   overflow: hidden;
   @include d-flex;
 
@@ -80,7 +80,7 @@ img {
 
     .learn-more {
       @include transition($trns-standart);
-      color: #E1703D;
+      color: $color-secondary;
 
       i {
         font-size: 9px;
@@ -123,7 +123,7 @@ img {
     background: linear-gradient(155.66deg, #23BCBA 0, #45E994 100%);
     @include box-shadow(0 4px 4px rgba(52, 210, 169, 0.24));
     @include position($top:0,$right:0);
-    border-radius: 12px;
+    border-radius: $br-sm;
     color: $color-white;
     font-weight: bold;
     padding: 4px 10px;

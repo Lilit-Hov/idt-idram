@@ -6,21 +6,18 @@
       <change beforePath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_footer.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_footer.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_header.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_services.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/63346d8ff73465ef3f2740a66a43f00f63846f0a/_services.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/86ac4b604efeed11c9aa3bfb404e07539731293d/_base.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/86ac4b604efeed11c9aa3bfb404e07539731293d/_base.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/89d11aaa2fc8ff911f46398ea64a74adee4ccb95/_globals.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/89d11aaa2fc8ff911f46398ea64a74adee4ccb95/_globals.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/cf033c4a53773066e2bb4b8debe1540cab6b618d/_header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/cf033c4a53773066e2bb4b8debe1540cab6b618d/_header.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/cf033c4a53773066e2bb4b8debe1540cab6b618d/_index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/cf033c4a53773066e2bb4b8debe1540cab6b618d/_index.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_mixins.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_mixins.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/89d11aaa2fc8ff911f46398ea64a74adee4ccb95/_types.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/89d11aaa2fc8ff911f46398ea64a74adee4ccb95/_types.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/e62b3166883e0958225aa074141489da7912103a/_variables.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/modules/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/modules/_types.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/modules/_types.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/partials/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/partials/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/partials/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/partials/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/partials/_services.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/responsive/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/responsive/partials/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/responsive/partials/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/responsive/partials/_index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/utilities/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/utilities/_mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/utilities/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/utilities/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +134,12 @@
       <workItem from="1581801940515" duration="1822000" />
       <workItem from="1581803866582" duration="1797000" />
       <workItem from="1581805678288" duration="1795000" />
-      <workItem from="1581807486978" duration="1558000" />
+      <workItem from="1581807486978" duration="1796000" />
+      <workItem from="1581809297045" duration="1339000" />
+      <workItem from="1581850987414" duration="2000" />
+      <workItem from="1581851125758" duration="44000" />
+      <workItem from="1581851220083" duration="23000" />
+      <workItem from="1581851266082" duration="786000" />
     </task>
     <servers />
   </component>
@@ -241,12 +243,12 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1581807664650" />
-    <state x="629" y="-3" width="737" height="616" key="find.popup" timestamp="1581806616467">
+    <state x="629" y="-3" width="737" height="616" key="find.popup" timestamp="1581810339488">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="0" width="607" height="648" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1579993062744" />
     <state x="2368" y="-4" width="854" height="880" key="find.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1580044908511" />
-    <state x="629" y="-3" width="737" height="616" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1581806616467" />
+    <state x="629" y="-3" width="737" height="616" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1581810339488" />
     <state x="662" y="27" width="704" height="627" key="find.popup/70.27.1296.741@70.27.1296.741" timestamp="1581513830196" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1581522689636">
       <screen x="0" y="0" width="1366" height="728" />
@@ -256,12 +258,12 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1982" y="240" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1580010769072" />
-    <state x="346" y="49" width="673" height="679" key="search.everywhere.popup" timestamp="1581808526587">
+    <state x="346" y="49" width="673" height="679" key="search.everywhere.popup" timestamp="1581853303192">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1579971555193" />
     <state x="1852" y="70" width="945" height="969" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1580040812638" />
-    <state x="346" y="49" width="673" height="679" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581808526587" />
+    <state x="346" y="49" width="673" height="679" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581853303192" />
     <state x="398" y="77" width="672" height="692" key="search.everywhere.popup/70.27.1296.741@70.27.1296.741" timestamp="1581512650211" />
   </component>
 </project>

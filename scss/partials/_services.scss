@@ -3,7 +3,7 @@
   background: $color-white;
   padding-bottom: 56px;
   margin-bottom: 20px;
-  border-radius: 6px;
+  border-radius: $br-xs;
   padding-top: 62px;
 
   .list {
@@ -48,7 +48,7 @@
       }
 
       .circle-sticker {
-        background: linear-gradient(#E1703D 0, #EA973E 100%);
+        background: linear-gradient($color-secondary 0, #EA973E 100%);
         @include transition($trns-sm);
         display: inline-block;
         position: relative;
