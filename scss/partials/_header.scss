@@ -9,8 +9,10 @@ header {
     display: inline-block;
     max-width: 140px;
 
-    &:hover {
-      opacity: 0.75;
+    @media (hover: hover) {
+      &:hover {
+        opacity: 0.75;
+      }
     }
   }
 
@@ -31,8 +33,10 @@ header {
     }
 
     &:hover {
-      .name{
-        color: $color-primary;
+      @media (hover: hover) {
+        .name {
+          color: $color-primary;
+        }
       }
 
       i.icon-cheveron-down {
@@ -100,10 +104,6 @@ header {
     li {
       margin-right: 20px;
     }
-  }
-
-  .toggle-button {
-
   }
 }
 

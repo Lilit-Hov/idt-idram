@@ -111,16 +111,19 @@ body {
   width: 100%; }
   @media (min-width: 576px) {
     .container {
-      max-width: 560px; } }
+      width: 560px; } }
   @media (min-width: 768px) {
     .container {
-      max-width: 750px; } }
+      width: 750px; } }
   @media (min-width: 992px) {
     .container {
-      max-width: 982px; } }
+      width: 982px; } }
   @media (min-width: 1200px) {
     .container {
-      max-width: 1190px; } }
+      width: 1190px; } }
+  @media (min-width: 1920px) {
+    .container {
+      width: 1860px; } }
 
 .row {
   margin-right: -15px;
@@ -284,8 +287,9 @@ header {
     transition: all 0.4s ease;
     display: inline-block;
     max-width: 140px; }
-    header .logo:hover {
-      opacity: 0.75; }
+    @media (hover: hover) {
+      header .logo:hover {
+        opacity: 0.75; } }
   header .logo-primary {
     display: block; }
   header .logo-secondary {
@@ -298,8 +302,9 @@ header {
     color: #ffffff;
     font-weight: 500;
     font-size: 15px; }
-  header .user-info:hover .name {
-    color: #EA973E; }
+  @media (hover: hover) {
+    header .user-info:hover .name {
+      color: #EA973E; } }
   header .user-info:hover i.icon-cheveron-down {
     transform: rotate(180deg);
     color: #EA973E; }
@@ -358,13 +363,59 @@ header {
 .header-nav ul li {
   margin-right: 80px; }
 
+.story-list {
+  padding-bottom: 30px; }
+  .story-list .slick-slide {
+    border-radius: 6px;
+    margin-right: 17px;
+    overflow: hidden;
+    cursor: grab; }
+  .story-list .slick-arrow {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    position: absolute;
+    top: -25px;
+    line-height: 1;
+    /*&.slick-disabled {
+      cursor: initial;
+
+      i {
+        opacity: 0.24;
+      }
+
+      &:not(.slick-disabled):hover {
+        i {
+          color: $color-primary;
+        }
+      }
+    }*/ }
+    .story-list .slick-arrow.slick-next {
+      padding-left: 15px;
+      right: 0; }
+    .story-list .slick-arrow.slick-prev {
+      border-right: 2px dotted rgba(77, 77, 77, 0.24);
+      padding-right: 15px;
+      right: 36px; }
+    .story-list .slick-arrow i {
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+      color: #4D4D4D;
+      font-size: 20px; }
+    @media (hover: hover) {
+      .story-list .slick-arrow:hover i {
+        color: #EA973E; } }
+
 .services {
   -webkit-box-shadow: 0 0 14px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 14px rgba(0, 0, 0, 0.05);
   background: #ffffff;
+  border-radius: 6px;
   padding-bottom: 56px;
   margin-bottom: 20px;
-  border-radius: 6px;
   padding-top: 62px; }
   .services .list {
     -webkit-box-pack: center;
@@ -387,9 +438,10 @@ header {
           margin-bottom: 0; } }
       .services .list li .service-link {
         display: inline-block; }
-        .services .list li .service-link:hover .circle-sticker:before {
-          transform: translate(-50%, -50%) scale(1);
-          opacity: 1; }
+        @media (hover: hover) {
+          .services .list li .service-link:hover .circle-sticker:before {
+            transform: translate(-50%, -50%) scale(1);
+            opacity: 1; } }
       .services .list li p {
         margin-right: auto;
         margin-left: auto;
@@ -438,13 +490,13 @@ header {
 .options .card .title {
   margin-bottom: 30px; }
 .options .card ul li {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
+  display: flex; }
   .options .card ul li:last-child {
     margin-bottom: 0; }
 .options .rates tr td {
@@ -454,12 +506,12 @@ header {
 .options .rates h6 {
   margin-bottom: 12px; }
 .options .rates tbody td {
-  display: table-cell;
-  padding-bottom: 17px; }
+  padding-bottom: 17px;
+  display: table-cell; }
   .options .rates tbody td img {
     vertical-align: middle;
-    width: 24px;
-    margin-right: 8px; }
+    margin-right: 8px;
+    width: 24px; }
 .options .rates .rate-name {
   font-family: "Circular Std Book", sans-serif;
   font-size: 14px;
@@ -478,7 +530,9 @@ footer {
   padding-top: 30px; }
   @media (min-width: 992px) {
     footer {
-      padding: 45px 50px 55px 90px; } }
+      padding: 45px 50px 55px 0; }
+      footer .footer-links.left {
+        padding-left: 90px; } }
   footer .logo {
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
@@ -490,321 +544,383 @@ footer {
     max-width: 130px; }
     footer .logo img {
       display: block; }
-    footer .logo:hover {
-      opacity: 0.8; }
-  footer li {
+    @media (hover: hover) {
+      footer .logo:hover {
+        opacity: 0.8; } }
+  footer .footer-links li {
     margin-bottom: 10px; }
-    footer li:last-child {
+    footer .footer-links li:last-child {
       margin-bottom: 0; }
-    footer li:nth-child(n + 2) {
+    footer .footer-links li:nth-child(n + 2) {
       padding-left: 42px; }
-    footer li a {
+    footer .footer-links li a {
       -webkit-transition: all 0.4s ease;
       -moz-transition: all 0.4s ease;
       -o-transition: all 0.4s ease;
       transition: all 0.4s ease;
       font-size: 15px;
       color: #000000; }
-      footer li a:hover {
-        color: #EA973E; }
+      @media (hover: hover) {
+        footer .footer-links li a:hover {
+          color: #EA973E; } }
 
 .col-1 {
   flex-basis: 8.3333333333%;
+  max-width: 8.3333333333%;
   padding-left: 15px;
   padding-right: 15px; }
 
 .col-2 {
   flex-basis: 16.6666666667%;
+  max-width: 16.6666666667%;
   padding-left: 15px;
   padding-right: 15px; }
 
 .col-3 {
   flex-basis: 25%;
+  max-width: 25%;
   padding-left: 15px;
   padding-right: 15px; }
 
 .col-4 {
   flex-basis: 33.3333333333%;
+  max-width: 33.3333333333%;
   padding-left: 15px;
   padding-right: 15px; }
 
 .col-5 {
   flex-basis: 41.6666666667%;
+  max-width: 41.6666666667%;
   padding-left: 15px;
   padding-right: 15px; }
 
 .col-6 {
   flex-basis: 50%;
+  max-width: 50%;
   padding-left: 15px;
   padding-right: 15px; }
 
 .col-7 {
   flex-basis: 58.3333333333%;
+  max-width: 58.3333333333%;
   padding-left: 15px;
   padding-right: 15px; }
 
 .col-8 {
   flex-basis: 66.6666666667%;
+  max-width: 66.6666666667%;
   padding-left: 15px;
   padding-right: 15px; }
 
 .col-9 {
   flex-basis: 75%;
+  max-width: 75%;
   padding-left: 15px;
   padding-right: 15px; }
 
 .col-10 {
   flex-basis: 83.3333333333%;
+  max-width: 83.3333333333%;
   padding-left: 15px;
   padding-right: 15px; }
 
 .col-11 {
   flex-basis: 91.6666666667%;
+  max-width: 91.6666666667%;
   padding-left: 15px;
   padding-right: 15px; }
 
 .col-12 {
   flex-basis: 100%;
+  max-width: 100%;
   padding-left: 15px;
   padding-right: 15px; }
 
 @media (min-width: 576px) {
   .col-xs-1 {
+    max-width: 8.3333333333%;
     flex-basis: 8.3333333333%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-xs-2 {
+    max-width: 16.6666666667%;
     flex-basis: 16.6666666667%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-xs-3 {
+    max-width: 25%;
     flex-basis: 25%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-xs-4 {
+    max-width: 33.3333333333%;
     flex-basis: 33.3333333333%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-xs-5 {
+    max-width: 41.6666666667%;
     flex-basis: 41.6666666667%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-xs-6 {
+    max-width: 50%;
     flex-basis: 50%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-xs-7 {
+    max-width: 58.3333333333%;
     flex-basis: 58.3333333333%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-xs-8 {
+    max-width: 66.6666666667%;
     flex-basis: 66.6666666667%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-xs-9 {
+    max-width: 75%;
     flex-basis: 75%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-xs-10 {
+    max-width: 83.3333333333%;
     flex-basis: 83.3333333333%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-xs-11 {
+    max-width: 91.6666666667%;
     flex-basis: 91.6666666667%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-xs-12 {
+    max-width: 100%;
     flex-basis: 100%;
     padding-left: 15px;
     padding-right: 15px; } }
 @media (min-width: 768px) {
   .col-sm-1 {
     flex-basis: 8.3333333333%;
+    max-width: 8.3333333333%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-sm-2 {
     flex-basis: 16.6666666667%;
+    max-width: 16.6666666667%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-sm-3 {
     flex-basis: 25%;
+    max-width: 25%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-sm-4 {
     flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-sm-5 {
     flex-basis: 41.6666666667%;
+    max-width: 41.6666666667%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-sm-6 {
     flex-basis: 50%;
+    max-width: 50%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-sm-7 {
     flex-basis: 58.3333333333%;
+    max-width: 58.3333333333%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-sm-8 {
     flex-basis: 66.6666666667%;
+    max-width: 66.6666666667%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-sm-9 {
     flex-basis: 75%;
+    max-width: 75%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-sm-10 {
     flex-basis: 83.3333333333%;
+    max-width: 83.3333333333%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-sm-11 {
     flex-basis: 91.6666666667%;
+    max-width: 91.6666666667%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-sm-12 {
     flex-basis: 100%;
+    max-width: 100%;
     padding-left: 15px;
     padding-right: 15px; } }
 @media (min-width: 992px) {
   .col-md-1 {
+    max-width: 8.3333333333%;
     flex-basis: 8.3333333333%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-md-2 {
+    max-width: 16.6666666667%;
     flex-basis: 16.6666666667%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-md-3 {
+    max-width: 25%;
     flex-basis: 25%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-md-4 {
+    max-width: 33.3333333333%;
     flex-basis: 33.3333333333%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-md-5 {
+    max-width: 41.6666666667%;
     flex-basis: 41.6666666667%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-md-6 {
+    max-width: 50%;
     flex-basis: 50%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-md-7 {
+    max-width: 58.3333333333%;
     flex-basis: 58.3333333333%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-md-8 {
+    max-width: 66.6666666667%;
     flex-basis: 66.6666666667%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-md-9 {
+    max-width: 75%;
     flex-basis: 75%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-md-10 {
+    max-width: 83.3333333333%;
     flex-basis: 83.3333333333%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-md-11 {
+    max-width: 91.6666666667%;
     flex-basis: 91.6666666667%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-md-12 {
+    max-width: 100%;
     flex-basis: 100%;
     padding-left: 15px;
     padding-right: 15px; } }
 @media (min-width: 1200px) {
   .col-lg-1 {
+    max-width: 8.3333333333%;
     flex-basis: 8.3333333333%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-lg-2 {
+    max-width: 16.6666666667%;
     flex-basis: 16.6666666667%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-lg-3 {
+    max-width: 25%;
     flex-basis: 25%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-lg-4 {
+    max-width: 33.3333333333%;
     flex-basis: 33.3333333333%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-lg-5 {
+    max-width: 41.6666666667%;
     flex-basis: 41.6666666667%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-lg-6 {
+    max-width: 50%;
     flex-basis: 50%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-lg-7 {
+    max-width: 58.3333333333%;
     flex-basis: 58.3333333333%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-lg-8 {
+    max-width: 66.6666666667%;
     flex-basis: 66.6666666667%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-lg-9 {
+    max-width: 75%;
     flex-basis: 75%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-lg-10 {
+    max-width: 83.3333333333%;
     flex-basis: 83.3333333333%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-lg-11 {
+    max-width: 91.6666666667%;
     flex-basis: 91.6666666667%;
     padding-left: 15px;
     padding-right: 15px; }
 
   .col-lg-12 {
+    max-width: 100%;
     flex-basis: 100%;
     padding-left: 15px;
     padding-right: 15px; } }
@@ -1139,12 +1255,12 @@ footer {
   padding-left: 50px; }
 
 .section-spaces-sm {
-  padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  padding-top: 20px; }
 
 .section-spaces-md {
-  padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-bottom: 30px;
+  padding-top: 30px; }
 
 h1, .h1 {
   font-family: "Circular Std Book", sans-serif;
@@ -1298,8 +1414,9 @@ img {
         transition: all 0.4s ease;
         display: inline-block;
         width: 100%; }
-        .dropdown-hover .dropdown-menu li a:hover {
-          color: #EA973E; }
+        @media (hover: hover) {
+          .dropdown-hover .dropdown-menu li a:hover {
+            color: #EA973E; } }
 
 .card {
   background-color: #ffffff;
@@ -1310,8 +1427,6 @@ img {
 .figure {
   -webkit-box-shadow: 0 0 14px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 14px rgba(0, 0, 0, 0.05);
-  border-radius: 6px;
-  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -1319,11 +1434,10 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 193px;
-    padding-top: 48%; }
+    width: 195px; }
   .figure .figure-caption {
     padding: 20px 10px 20px 25px;
-    background: #FFFFFF;
+    background: #ffffff;
     max-width: 230px; }
     .figure .figure-caption .description {
       margin-bottom: 15px;
@@ -1336,8 +1450,9 @@ img {
       color: #E1703D; }
       .figure .figure-caption .learn-more i {
         font-size: 9px; }
-      .figure .figure-caption .learn-more:hover {
-        color: #2E3C4D; }
+      @media (hover: hover) {
+        .figure .figure-caption .learn-more:hover {
+          color: #2E3C4D; } }
 
 .color-danger {
   color: #FF004A; }
@@ -1394,6 +1509,9 @@ img {
   .underline:hover:before, .underline.active:before {
     height: 15px; }
 
+.max-w-sm {
+  max-width: 500px; }
+
 @media (min-width: 576px) {
   .hide-min-xs {
     display: none; } }
@@ -1443,7 +1561,7 @@ img {
     left: 0;
     background-color: #4D4D4D;
     padding-bottom: 30px;
-    padding-top: 70px;
+    padding-top: 90px;
     display: none;
     width: 100%;
     z-index: 3; }
@@ -1455,14 +1573,17 @@ img {
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column; }
+      header .header-nav ul li {
+        margin-bottom: 25px; }
   header .lang {
     position: absolute;
     top: 30px;
     right: 30px;
     display: none;
     z-index: 3; }
+    header .lang li {
+      margin-bottom: 15px; }
   header .header-nav ul li, header .lang li {
-    margin-bottom: 25px;
     margin-right: 0; }
     header .header-nav ul li:last-child, header .lang li:last-child {
       margin-bottom: 0; }
@@ -1474,6 +1595,17 @@ img {
       display: block; }
     header.collapsed-header .header-nav, header.collapsed-header .lang {
       display: block; } }
+@media (max-width: 991px) {
+  .story-list .slick-slide .figure {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .story-list .slick-slide .figure .figure-img {
+      height: 200px;
+      width: 100%; }
+    .story-list .slick-slide .figure .figure-caption {
+      max-width: 260px; } }
 @media (max-width: 767px) {
   .services {
     padding-bottom: 30px;

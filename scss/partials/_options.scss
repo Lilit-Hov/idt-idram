@@ -6,9 +6,9 @@
 
     ul {
       li {
+        @include justify-space-between;
         margin-bottom: 20px;
         @include d-flex;
-        @include justify-space-between;
 
         &:last-child {
           margin-bottom: 0;
@@ -35,13 +35,13 @@
 
     tbody {
       td {
-        display: table-cell;
         padding-bottom: 17px;
+        display: table-cell;
 
         img {
           vertical-align: middle;
-          width: 24px;
           margin-right: 8px;
+          width: 24px;
         }
       }
     }

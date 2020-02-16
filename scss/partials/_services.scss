@@ -1,9 +1,9 @@
 .services {
   @include box-shadow(0 0 14px rgba(0, 0, 0, 0.05));
   background: $color-white;
+  border-radius: $br-xs;
   padding-bottom: 56px;
   margin-bottom: 20px;
-  border-radius: $br-xs;
   padding-top: 62px;
 
   .list {
@@ -29,10 +29,12 @@
       .service-link {
         display: inline-block;
 
-        &:hover {
-          .circle-sticker:before {
-            transform: translate(-50%,-50%) scale(1);
-            opacity: 1;
+        @media (hover: hover) {
+          &:hover {
+            .circle-sticker:before {
+              transform: translate(-50%,-50%) scale(1);
+              opacity: 1;
+            }
           }
         }
       }

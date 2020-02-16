@@ -1,0 +1,56 @@
+.story-list {
+  padding-bottom: 30px;
+
+  .slick-slide {
+    border-radius: $br-xs;
+    margin-right: 17px;
+    overflow: hidden;
+    cursor: grab;
+  }
+
+  .slick-arrow {
+    @include transform(translateY(-100%));
+    @include position($top:-25px);
+    line-height: 1;
+
+    &.slick-next {
+      padding-left: 15px;
+      right: 0;
+    }
+
+    &.slick-prev {
+      border-right: 2px dotted rgba($color-gray,0.24);
+      padding-right: 15px;
+      right: 36px;
+    }
+
+    //styles for not infinite slider disabled arrows
+    /*&.slick-disabled {
+      cursor: initial;
+
+      i {
+        opacity: 0.24;
+      }
+
+      &:not(.slick-disabled):hover {
+        i {
+          color: $color-primary;
+        }
+      }
+    }*/
+
+    i {
+      @include transition($trns-xs);
+      color: $color-gray;
+      font-size: 20px;
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        i {
+          color: $color-primary;
+        }
+      }
+    }
+  }
+}

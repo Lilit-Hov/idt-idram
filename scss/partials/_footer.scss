@@ -3,7 +3,13 @@ footer {
   padding-top: 30px;
 
   @media (min-width: $screen-md-min) {
-    padding: 45px 50px 55px 90px;
+    padding: 45px 50px 55px 0;
+
+    .footer-links {
+      &.left {
+        padding-left: 90px;
+      }
+    }
   }
 
   .logo {
@@ -17,29 +23,35 @@ footer {
       display: block;
     }
 
-    &:hover {
-      opacity: 0.8;
+    @media (hover: hover) {
+      &:hover {
+        opacity: 0.8;
+      }
     }
   }
 
-  li {
-    margin-bottom: 10px;
+  .footer-links {
+    li {
+      margin-bottom: 10px;
 
-    &:last-child {
-      margin-bottom: 0;
-    }
+      &:last-child {
+        margin-bottom: 0;
+      }
 
-    &:nth-child(n + 2) {
-      padding-left: 42px;
-    }
+      &:nth-child(n + 2) {
+        padding-left: 42px;
+      }
 
-    a {
-      @include transition($trns-standart);
-      font-size: 15px;
-      color: #000000;
+      a {
+        @include transition($trns-standart);
+        font-size: 15px;
+        color: #000000;
 
-      &:hover {
-        color: $color-primary;
+        @media (hover: hover) {
+          &:hover {
+            color: $color-primary;
+          }
+        }
       }
     }
   }

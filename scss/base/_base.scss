@@ -28,16 +28,19 @@ body {
   width: 100%;
 
   @media (min-width: $screen-xs-min) {
-    max-width: ($cont-width-xs + $cont-padding);
+    width: ($cont-width-xs + $cont-padding);
   }
   @media (min-width: $screen-sm-min) {
-    max-width: ($cont-width-sm + $cont-padding);
+    width: ($cont-width-sm + $cont-padding);
   }
   @media (min-width: $screen-md-min) {
-    max-width: ($cont-width-md + $cont-padding);
+    width: ($cont-width-md + $cont-padding);
   }
   @media (min-width: $screen-lg-min) {
-    max-width: ($cont-width-lg + $cont-padding);
+    width: ($cont-width-lg + $cont-padding);
+  }
+  @media (min-width: $screen-xl-min) {
+    width: ($cont-width-xl + $cont-padding);
   }
 }
 

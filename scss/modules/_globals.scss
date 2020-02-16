@@ -39,8 +39,10 @@ img {
         display: inline-block;
         width: 100%;
 
-        &:hover {
-          color: $color-primary
+        @media (hover: hover) {
+          &:hover {
+            color: $color-primary
+          }
         }
       }
     }
@@ -58,19 +60,16 @@ img {
 //figure style
 .figure {
   @include box-shadow(0 0 14px rgba(0, 0, 0, 0.05));
-  border-radius: $br-xs;
-  overflow: hidden;
   @include d-flex;
 
   .figure-img {
     @include bg-img($repeat: no-repeat, $size: cover,$position: center);
-    width: 193px;
-    padding-top: 48%;
+    width: 195px;
   }
 
   .figure-caption {
     padding: 20px 10px 20px 25px;
-    background: #FFFFFF;
+    background: $color-white;
     max-width: 230px;
 
     .description {
@@ -86,8 +85,10 @@ img {
         font-size: 9px;
       }
 
-      &:hover {
-        color: $color-text;
+      @media (hover: hover) {
+        &:hover {
+          color: $color-text;
+        }
       }
     }
   }
@@ -114,6 +115,7 @@ img {
   height: 100%;
 }
 
+//badge style
 .badge {
   display: inline-block;
   position: relative;
@@ -154,7 +156,7 @@ img {
   }
 
   &:hover, &.active {
-     &:after {
+    &:after {
       width: 60%;
     }
 
@@ -162,4 +164,8 @@ img {
       height: 15px;
     }
   }
+}
+
+.max-w-sm {
+  max-width: 500px;
 }

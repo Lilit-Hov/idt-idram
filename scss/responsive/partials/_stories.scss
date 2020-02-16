@@ -1,0 +1,18 @@
+@media (max-width: $screen-md-max) {
+  .story-list {
+    .slick-slide {
+      .figure {
+        @include dir-col;
+
+        .figure-img {
+          height: 200px;
+          width: 100%;
+        }
+
+        .figure-caption {
+          max-width: 260px;
+        }
+      }
+    }
+  }
+}
